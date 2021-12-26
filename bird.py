@@ -6,6 +6,8 @@ import random
 
 pygame.font.init()
 
+pygame.display.set_caption("AI_FlappyGame | Lakshya")
+
 WIN_WIDTH = 500
 WIN_HEIGHT = 800
 
