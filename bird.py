@@ -6,8 +6,6 @@ import random
 
 pygame.font.init()
 
-pygame.display.set_caption("AI_FlappyGame | Lakshya")
-
 WIN_WIDTH = 500
 WIN_HEIGHT = 800
 
@@ -206,7 +204,7 @@ def main(genomes, config):
     base = Base(730)
     pipes = [Pipe(600)]
 
-    win = pygame.display.set_caption("Flappy Bird AI")
+    win = pygame.display.set_caption("AI_FlappyGame | Lakshya")
     win = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT))
 
     clock = pygame.time.Clock()
